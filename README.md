@@ -5,6 +5,6 @@ A slightly pointless bot for the KSU Cybersecurity Club Hub Discord server. I ju
 - Create and invite a Discord application with the `bot` and `application.command` scopes
 - Install Node.js
 - Clone this repository
-- Run `npm install`
+- Run `npm install` in the project directory
 - Fill in values in config-sample.json and rename to config.json
 - Run `node ./index.json`
