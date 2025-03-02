@@ -1,0 +1,32 @@
+{
+  "name": "cement-bot",
+  "version": "1.0.0",
+  "description": "A slightly pointless bot for the KSU Cybersecurity Club Hub Discord server. I just want coding practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrett16r/cement-bot.git"
+  },
+  "keywords": [
+    "discord.js",
+    "bot",
+    "discord",
+    "cybersecurity"
+  ],
+  "author": "Garrett Rose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garrett16r/cement-bot/issues"
+  },
+  "homepage": "https://github.com/garrett16r/cement-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.18.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0"
+  }
+}
