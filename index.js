@@ -15,6 +15,8 @@ for (const folder of commandFolders) {
 	const commandsPath = path.join(foldersPath, folder);
 	const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
 
+    console.log(`Loaded ${commandFiles.length} commands from .\\commands\\${folder}: ${commandFiles}`);
+
 	for (const file of commandFiles) {
 		const filePath = path.join(commandsPath, file);
 		const command = require(filePath);
@@ -61,7 +63,6 @@ client.on(Events.MessageCreate, async message => {
 
         if (rand == 0) {
             message.react('🧴');
-            console.log('Reacted!');
         }
     }
 });
