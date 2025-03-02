@@ -1,4 +1,4 @@
-const { SlashCommandBuilder, EmbedBuilder, MessageFlags } = require('discord.js');
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -19,6 +19,6 @@ module.exports = {
             );
             // .setFooter('Send resources you wanted added to @Syn');
 
-        await interaction.reply({ embeds: [resourcesEmbed], flags: MessageFlags.Ephemeral });
+        await interaction.reply({ embeds: [resourcesEmbed] });
     },
 };
