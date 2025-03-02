@@ -58,13 +58,7 @@ client.on(Events.MessageCreate, async message => {
     if (message.author.bot) return;
 
     // 1/30 chance to react with lotion bottle to any of Evan's messages. This is what coding was made for.
-    if (message.author.id == '453909386893721600') {
-        const rand = randomInt(0, 30);
-
-        if (rand == 0) {
-            message.react('🧴');
-        }
-    }
+    if (message.author.id == '453909386893721600' && randomInt(0, 30) == 0) message.react('🧴');
 });
 
 client.once(Events.ClientReady, readyClient => {
