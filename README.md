@@ -6,5 +6,5 @@ A slightly pointless bot for the KSU Cybersecurity Club Hub Discord server. I ju
 - Install Node.js
 - Clone this repository
 - Run `npm install` in the project directory
-- Fill in values in config-sample.json and rename to config.json
+- Fill in values in .env.sample and rename to .env
 - Run `node ./index.json`
