@@ -7,4 +7,4 @@ A slightly pointless bot for the KSU Cybersecurity Club Hub Discord server. I ju
 - Clone this repository
 - Run `npm install` in the project directory
 - Fill in values in .env.sample and rename to .env
-- Run `node ./index.json`
+- Run `node .`
