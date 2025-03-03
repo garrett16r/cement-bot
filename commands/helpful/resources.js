@@ -7,7 +7,7 @@ module.exports = {
     async execute(interaction) {
         // Add list of useful resources. Send as a nice embed block.
         const resourcesEmbed = new EmbedBuilder()
-            .setColor(0xf0ec00)
+            .setColor(0xFDBB30)
             .setTitle('Cyber Resources')
             .setDescription(
                 `
